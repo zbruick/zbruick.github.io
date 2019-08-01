@@ -1,0 +1,272 @@
+
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div style="width:1000 px">
+
+<div style="float:right; width:98 px; height:98px;">
+<img src="https://raw.githubusercontent.com/Unidata/MetPy/master/metpy/plots/_static/unidata_150x150.png" alt="Unidata Logo" style="height: 98px;">
+</div><p><h1>Extract HRRR data using Unidata's Siphon package and Xarray</h1></p>
+<h3>Unidata Python Workshop</h3><div style="clear:both"></div>
+</div><hr style="height:2px;">
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="o">%</span><span class="k">matplotlib</span> inline
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Resolve the latest HRRR dataset</span>
+<span class="kn">from</span> <span class="nn">siphon.catalog</span> <span class="k">import</span> <span class="n">get_latest_access_url</span>
+
+<span class="n">hrrr_catalog</span> <span class="o">=</span> <span class="s2">&quot;http://thredds.ucar.edu/thredds/catalog/grib/NCEP/HRRR/CONUS_2p5km/catalog.xml&quot;</span>
+<span class="n">latest_hrrr_ncss</span> <span class="o">=</span> <span class="n">get_latest_access_url</span><span class="p">(</span><span class="n">hrrr_catalog</span><span class="p">,</span> <span class="s2">&quot;NetcdfSubset&quot;</span><span class="p">)</span>
+
+<span class="c1"># Set up access via NCSS</span>
+<span class="kn">from</span> <span class="nn">siphon.ncss</span> <span class="k">import</span> <span class="n">NCSS</span>
+<span class="n">ncss</span> <span class="o">=</span> <span class="n">NCSS</span><span class="p">(</span><span class="n">latest_hrrr_ncss</span><span class="p">)</span>
+
+<span class="c1"># Create a query to ask for all times in netcdf4 format for</span>
+<span class="c1"># the Temperature_surface variable, with a bounding box</span>
+<span class="n">query</span> <span class="o">=</span> <span class="n">ncss</span><span class="o">.</span><span class="n">query</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">query</span><span class="o">.</span><span class="n">all_times</span><span class="p">()</span><span class="o">.</span><span class="n">accept</span><span class="p">(</span><span class="s1">&#39;netcdf4&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">variables</span><span class="p">(</span><span class="s1">&#39;Temperature_height_above_ground&#39;</span><span class="p">)</span>
+<span class="n">query</span><span class="o">.</span><span class="n">lonlat_box</span><span class="p">(</span><span class="n">north</span><span class="o">=</span><span class="mi">45</span><span class="p">,</span> <span class="n">south</span><span class="o">=</span><span class="mi">41</span><span class="p">,</span> <span class="n">east</span><span class="o">=-</span><span class="mi">67</span><span class="p">,</span> <span class="n">west</span><span class="o">=-</span><span class="mi">77</span><span class="p">)</span>
+
+<span class="c1"># Get the raw bytes and write to a file.</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">ncss</span><span class="o">.</span><span class="n">get_data_raw</span><span class="p">(</span><span class="n">query</span><span class="p">)</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;test.nc&#39;</span><span class="p">,</span> <span class="s1">&#39;wb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">outf</span><span class="p">:</span>
+    <span class="n">outf</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Try-reading-extracted-data-with-Xarray">Try reading extracted data with Xarray<a class="anchor-link" href="#Try-reading-extracted-data-with-Xarray">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">xarray</span> <span class="k">as</span> <span class="nn">xr</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">nc</span> <span class="o">=</span> <span class="n">xr</span><span class="o">.</span><span class="n">open_dataset</span><span class="p">(</span><span class="s1">&#39;test.nc&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">nc</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">var</span><span class="o">=</span><span class="s1">&#39;Temperature_height_above_ground&#39;</span>
+<span class="n">ncvar</span> <span class="o">=</span> <span class="n">nc</span><span class="p">[</span><span class="n">var</span><span class="p">]</span>
+<span class="n">ncvar</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">grid</span> <span class="o">=</span> <span class="n">nc</span><span class="p">[</span><span class="n">ncvar</span><span class="o">.</span><span class="n">grid_mapping</span><span class="p">]</span>
+<span class="n">grid</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">lon0</span> <span class="o">=</span> <span class="n">grid</span><span class="o">.</span><span class="n">longitude_of_central_meridian</span>
+<span class="n">lat0</span> <span class="o">=</span> <span class="n">grid</span><span class="o">.</span><span class="n">latitude_of_projection_origin</span>
+<span class="n">lat1</span> <span class="o">=</span> <span class="n">grid</span><span class="o">.</span><span class="n">standard_parallel</span>
+<span class="n">earth_radius</span> <span class="o">=</span> <span class="n">grid</span><span class="o">.</span><span class="n">earth_radius</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Try-plotting-the-LambertConformal-data-with-Cartopy">Try plotting the LambertConformal data with Cartopy<a class="anchor-link" href="#Try-plotting-the-LambertConformal-data-with-Cartopy">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">cartopy</span>
+<span class="kn">import</span> <span class="nn">cartopy.crs</span> <span class="k">as</span> <span class="nn">ccrs</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#cartopy wants meters, not km</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">ncvar</span><span class="o">.</span><span class="n">x</span><span class="o">.</span><span class="n">data</span><span class="o">*</span><span class="mf">1000.</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">ncvar</span><span class="o">.</span><span class="n">y</span><span class="o">.</span><span class="n">data</span><span class="o">*</span><span class="mf">1000.</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#globe = ccrs.Globe(ellipse=&#39;WGS84&#39;) #default</span>
+<span class="n">globe</span> <span class="o">=</span> <span class="n">ccrs</span><span class="o">.</span><span class="n">Globe</span><span class="p">(</span><span class="n">ellipse</span><span class="o">=</span><span class="s1">&#39;sphere&#39;</span><span class="p">,</span> <span class="n">semimajor_axis</span><span class="o">=</span><span class="n">grid</span><span class="o">.</span><span class="n">earth_radius</span><span class="p">)</span>
+
+<span class="n">crs</span> <span class="o">=</span> <span class="n">ccrs</span><span class="o">.</span><span class="n">LambertConformal</span><span class="p">(</span><span class="n">central_longitude</span><span class="o">=</span><span class="n">lon0</span><span class="p">,</span> <span class="n">central_latitude</span><span class="o">=</span><span class="n">lat0</span><span class="p">,</span> 
+                            <span class="n">standard_parallels</span><span class="o">=</span><span class="p">(</span><span class="n">lat0</span><span class="p">,</span><span class="n">lat1</span><span class="p">),</span> <span class="n">globe</span><span class="o">=</span><span class="n">globe</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">ncvar</span><span class="o">.</span><span class="n">x</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">ncvar</span><span class="o">.</span><span class="n">y</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">ncvar</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># find the correct time dimension name</span>
+<span class="k">for</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">ncvar</span><span class="o">.</span><span class="n">dims</span><span class="p">:</span>
+    <span class="k">if</span> <span class="s2">&quot;time&quot;</span> <span class="ow">in</span> <span class="n">d</span><span class="p">:</span> 
+        <span class="n">timevar</span> <span class="o">=</span> <span class="n">d</span>
+<span class="n">nc</span><span class="p">[</span><span class="n">timevar</span><span class="p">]</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">istep</span> <span class="o">=</span> <span class="mi">6</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span><span class="mi">8</span><span class="p">))</span>
+<span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">axes</span><span class="p">(</span><span class="n">projection</span><span class="o">=</span><span class="n">ccrs</span><span class="o">.</span><span class="n">PlateCarree</span><span class="p">())</span>
+<span class="n">mesh</span> <span class="o">=</span> <span class="n">ax</span><span class="o">.</span><span class="n">pcolormesh</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">ncvar</span><span class="p">[</span><span class="n">istep</span><span class="p">,::]</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">squeeze</span><span class="p">(),</span> <span class="n">transform</span><span class="o">=</span><span class="n">crs</span><span class="p">,</span><span class="n">zorder</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">coastlines</span><span class="p">(</span><span class="n">resolution</span><span class="o">=</span><span class="s1">&#39;10m&#39;</span><span class="p">,</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;black&#39;</span><span class="p">,</span><span class="n">zorder</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">gl</span> <span class="o">=</span> <span class="n">ax</span><span class="o">.</span><span class="n">gridlines</span><span class="p">(</span><span class="n">draw_labels</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">gl</span><span class="o">.</span><span class="n">xlabels_top</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="n">gl</span><span class="o">.</span><span class="n">ylabels_right</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="n">nc</span><span class="p">[</span><span class="n">timevar</span><span class="p">]</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="n">istep</span><span class="p">]);</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+ 
+
