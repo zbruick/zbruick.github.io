@@ -42,9 +42,11 @@ These features, perhaps, come with a minor cost of reduced language performance,
 
 In addition, Python has a rich ecosystem for scientific inquiry in the form of many proven, and popular open-source packages including:
 
--   [numpy](http://www.numpy.org/), a Python package for scientific computing
+-   [NumPy](http://www.numpy.org/), a Python package for scientific computing
 -   [matplotlib](http://matplotlib.org/), 2D plotting library which produces publication quality figures
--   [cartopy](http://scitools.org.uk/cartopy/), library providing cartographic tools for Python
+-   [CartoPy](http://scitools.org.uk/cartopy/), library providing cartographic tools for Python
 -   [netcdf4-python](http://unidata.github.io/netcdf4-python/), a Python interface to the netCDF-C library
+-   [xarray](http://xarray.pydata.org/en/stable/), N-D array handling with metadata
+-   [Pandas](https://pandas.pydata.org/pandas-docs/stable/), library for tabular data analysis
 
 In summary, Python's pragmatic focus for getting work done makes it an excellent choice for science students and professionals.
