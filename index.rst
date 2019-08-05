@@ -10,12 +10,11 @@
 Welcome to Unidata's Python Training for atmospheric science and meteorology. This site is meant
 to be a one-stop website for learning how to use Python for earth-science education and research
 for any experience level. New Python users may find the :doc:`Introduction to Python <intro-to-python>`
-section a good place to start. Check out the `example gallery`_ for detailed meteorology-specific
+section a good place to start. Check out the :doc:`Example Gallery <gallery-home>` for detailed meteorology-specific
 examples, or learn advanced usage of the scientific Python ecosystem for atmospheric science with our
 :doc:`workshop materials <workshop-intro>`. If you have questions, please contact the Unidata Python team
 at our `support email`_.
 
-.. _`example gallery`: galleries/
 .. _`support email`: support-python@unidata.ucar.edu
 
 .. class:: jumbotron-fluid
@@ -39,7 +38,7 @@ at our `support email`_.
 
     .. raw:: html
 
-       <a href="/galleries/" class="btn btn-primary btn-lg">Check out the gallery</a>
+       <a href="/gallery/gallery-home" class="btn btn-primary btn-lg">Check out the gallery</a>
 
 .. class:: jumbotron-fluid
 

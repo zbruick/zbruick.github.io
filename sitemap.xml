@@ -7,11 +7,11 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://zbruick.github.io/</loc>
-  <lastmod>2019-08-01T20:51:00Z</lastmod>
+  <lastmod>2019-08-05T19:27:00Z</lastmod>
  </url>
  <url>
   <loc>https://zbruick.github.io/archive.html</loc>
-  <lastmod>2019-08-05T15:29:00Z</lastmod>
+  <lastmod>2019-08-05T19:27:00Z</lastmod>
  </url>
  <url>
   <loc>https://zbruick.github.io/blog/</loc>
@@ -26,12 +26,32 @@
   <lastmod>2019-08-01T20:51:00Z</lastmod>
  </url>
  <url>
+  <loc>https://zbruick.github.io/gallery/el_interpolation/</loc>
+  <lastmod>2019-08-05T20:54:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/gallery/gallery-home/</loc>
+  <lastmod>2019-08-05T19:27:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/gallery/miller_composite/</loc>
+  <lastmod>2019-08-05T21:59:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/gallery/readme/</loc>
+  <lastmod>2019-08-05T20:50:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/gallery/skewt_example/</loc>
+  <lastmod>2019-08-05T21:03:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://zbruick.github.io/listings/</loc>
   <lastmod>2019-08-01T20:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://zbruick.github.io/listings/test.py.html</loc>
-  <lastmod>2019-08-05T15:29:00Z</lastmod>
+  <lastmod>2019-08-05T19:27:00Z</lastmod>
  </url>
  <url>
   <loc>https://zbruick.github.io/python/choosing/</loc>
