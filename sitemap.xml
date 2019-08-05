@@ -11,7 +11,7 @@
  </url>
  <url>
   <loc>https://zbruick.github.io/archive.html</loc>
-  <lastmod>2019-08-01T21:42:00Z</lastmod>
+  <lastmod>2019-08-05T15:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://zbruick.github.io/blog/</loc>
@@ -31,7 +31,27 @@
  </url>
  <url>
   <loc>https://zbruick.github.io/listings/test.py.html</loc>
-  <lastmod>2019-08-01T21:42:00Z</lastmod>
+  <lastmod>2019-08-05T15:29:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/python/choosing/</loc>
+  <lastmod>2019-08-05T15:29:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/python/conda-osx/</loc>
+  <lastmod>2019-08-05T15:29:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/python/conda-windows/</loc>
+  <lastmod>2019-08-05T15:29:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/python/controlflowintro/</loc>
+  <lastmod>2019-08-05T15:29:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/python/git/</loc>
+  <lastmod>2019-08-05T15:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://zbruick.github.io/python/hodograph-inset-example/</loc>
@@ -39,11 +59,31 @@
  </url>
  <url>
   <loc>https://zbruick.github.io/python/intro-to-python/</loc>
-  <lastmod>2019-08-01T20:51:00Z</lastmod>
+  <lastmod>2019-08-05T15:29:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/python/introduction/</loc>
+  <lastmod>2019-08-05T15:29:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/python/notebook/</loc>
+  <lastmod>2019-08-05T15:29:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/python/support/</loc>
+  <lastmod>2019-08-05T15:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://zbruick.github.io/python/test-notebook/</loc>
   <lastmod>2019-08-01T20:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/python/what/</loc>
+  <lastmod>2019-08-05T15:29:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/python/workshop-intro/</loc>
+  <lastmod>2019-08-05T15:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://zbruick.github.io/workshop/AWIPS/awips_grids_and_cartopy/</loc>
