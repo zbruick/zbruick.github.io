@@ -26,7 +26,7 @@ The OS X Terminal is a software program that gives you the ability to give text 
 
 For this exercise we will open up the Terminal by going to the OS X Finder and navigating to the Application, Utilities folder. There you will find the Terminal application which you can double click on to launch.
 
-<img src="images/terminal.gif" alt="OS X Terminal" onclick='this.src=this.src'/>
+<img src="/images/terminal.gif" alt="OS X Terminal" onclick='this.src=this.src'/>
 
 In the Terminal application, you will see a character such as **`$`** symbol known as the **command line**. The command line is where you give text instructions to your computer. 
 
@@ -58,7 +58,7 @@ which will list linked packages in a conda environment. You’ll notice librarie
 
 If `conda list` worked without trouble, skip this subsection. If that last `conda list` command gave you an error, it is possible that you are running the wrong flavor of the OS X Terminal (or more precisely the wrong Unix shell). Ensure you are running the `bash` shell by going to Terminal, Preferences… menu, and verifying that `/bin/bash` is selected. If you change it, please quit, and restart the Terminal application.
 
-<img src="images/bash.gif" alt="/bin/bash" onclick='this.src=this.src'/>
+<img src="/images/bash.gif" alt="/bin/bash" onclick='this.src=this.src'/>
 
 ## Getting Our Feet Wet by Installing Metpy with `conda`
 

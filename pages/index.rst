@@ -1,4 +1,4 @@
-.. title: Unidata Python Training
+.. title: The Unidata Python Training Site
 .. slug: index
 .. date: 2019-07-26 14:38:34 UTC-06:00
 .. tags: 
@@ -27,7 +27,7 @@ at our `support email`_.
 
     .. raw:: html
 
-       <a href="python/intro-to-python" class="btn btn-primary btn-lg">Start learning!</a>
+       <a href="/python/intro-to-python" class="btn btn-primary btn-lg">Start learning!</a>
 
 
 .. class:: jumbotron-fluid
@@ -39,7 +39,7 @@ at our `support email`_.
 
     .. raw:: html
 
-       <a href="galleries" class="btn btn-primary btn-lg">Check out the gallery</a>
+       <a href="/galleries/" class="btn btn-primary btn-lg">Check out the gallery</a>
 
 .. class:: jumbotron-fluid
 
@@ -52,4 +52,4 @@ at our `support email`_.
 
     .. raw:: html
 
-       <a href="workshop/workshop-intro" class="btn btn-primary btn-lg">Start the workshop</a>
+       <a href="/workshop/workshop-intro" class="btn btn-primary btn-lg">Start the workshop</a>

@@ -10,7 +10,7 @@
 <h2>OS X Terminal Application</h2>
 <p>The OS X Terminal is a software program that gives you the ability to give text based instructions to your computer. As you make progress in geoscientific programming, you will probably use the Terminal a lot, so it will benefit you to become familiar with it.</p>
 <p>For this exercise we will open up the Terminal by going to the OS X Finder and navigating to the Application, Utilities folder. There you will find the Terminal application which you can double click on to launch.</p>
-<p><img src="images/terminal.gif" alt="OS X Terminal" onclick='this.src=this.src'/></p>
+<p><img src="/images/terminal.gif" alt="OS X Terminal" onclick='this.src=this.src'/></p>
 <p>In the Terminal application, you will see a character such as <strong><code>$</code></strong> symbol known as the <strong>command line</strong>. The command line is where you give text instructions to your computer. </p>
 <h2>Interacting with <code>conda</code></h2>
 <p>Let's make sure conda is installed by entering this instruction on the command line:</p>
@@ -38,7 +38,7 @@
 <p>which will list linked packages in a conda environment. You’ll notice libraries such as the scientific computing library <a href="http://www.numpy.org/">numpy</a> that you will probably be making use of.</p>
 <h3>If You Have Problems with <code>conda list</code></h3>
 <p>If <code>conda list</code> worked without trouble, skip this subsection. If that last <code>conda list</code> command gave you an error, it is possible that you are running the wrong flavor of the OS X Terminal (or more precisely the wrong Unix shell). Ensure you are running the <code>bash</code> shell by going to Terminal, Preferences… menu, and verifying that <code>/bin/bash</code> is selected. If you change it, please quit, and restart the Terminal application.</p>
-<p><img src="images/bash.gif" alt="/bin/bash" onclick='this.src=this.src'/></p>
+<p><img src="/images/bash.gif" alt="/bin/bash" onclick='this.src=this.src'/></p>
 <h2>Getting Our Feet Wet by Installing Metpy with <code>conda</code></h2>
 <p>We first have to give <code>conda</code> an instruction on where to find <code>metpy</code> on the <code>conda-forge</code> channel.</p>
 <pre class="code literal-block"><span></span><span class="n">conda</span> <span class="n">config</span> <span class="c1">--add channels conda-forge</span>
