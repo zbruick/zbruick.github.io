@@ -20,7 +20,7 @@ BLOG_AUTHOR = "UCAR/Unidata"  # (translatable)
 BLOG_TITLE = "Unidata Python Training"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://zbruick.github.io"
+SITE_URL = "https://zbruick.github.io/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
