@@ -1,7 +1,7 @@
 .. title: Unidata's Python Workshop
 .. slug: workshop-intro
 .. date: 2019-07-29 14:37:54 UTC-06:00
-.. tags: 
+.. tags: meteorology python atmospheric science workshop unidata
 .. category: 
 .. link: 
 .. description: 

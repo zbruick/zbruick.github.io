@@ -2,7 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88dd59c4-6828-4f38-a107-b71018636d31" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pages/python/support.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/python/support.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/gallery/gallery-home.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.doit.db.db" beforeDir="false" afterPath="$PROJECT_DIR$/.doit.db.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cache/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/archive.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/archive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/categories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/galleries/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/galleries/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/galleries/rss.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output/galleries/rss.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/output/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/listings/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/listings/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/listings/test.py.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/listings/test.py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/python/choosing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/python/choosing/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/python/conda-osx/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/python/conda-osx/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/python/conda-windows/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/python/conda-windows/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/python/controlflowintro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/python/controlflowintro/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/python/git/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/python/git/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/python/hodograph-inset-example/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/python/hodograph-inset-example/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/python/intro-to-python/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/python/intro-to-python/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/python/introduction/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/python/introduction/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/python/notebook/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/python/notebook/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/python/support/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/python/support/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/python/test-notebook/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/python/test-notebook/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/python/what/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/python/what/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/sitemapindex.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output/sitemapindex.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/AWIPS/awips_grids_and_cartopy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/AWIPS/awips_grids_and_cartopy/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/AWIPS/grid_levels_and_parameters/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/AWIPS/grid_levels_and_parameters/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/AWIPS/map_resources_and_topography/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/AWIPS/map_resources_and_topography/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/AWIPS/model_sounding_data/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/AWIPS/model_sounding_data/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/AWIPS/nexrad_level_3_plot_with_matplotlib/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/AWIPS/nexrad_level_3_plot_with_matplotlib/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/AWIPS/satellite_imagery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/AWIPS/satellite_imagery/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/AWIPS/upper_air_bufr_soundings/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/AWIPS/upper_air_bufr_soundings/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/AWIPS/watch_and_warning_polygons/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/AWIPS/watch_and_warning_polygons/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/Bonus/downloading-gfs-with-siphon/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Bonus/downloading-gfs-with-siphon/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/Bonus/netcdf-writing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Bonus/netcdf-writing/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/Bonus/siphon_xarray_cartopy_hrrr/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Bonus/siphon_xarray_cartopy_hrrr/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/Bonus/what-to-do-when-things-go-wrong/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Bonus/what-to-do-when-things-go-wrong/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/CartoPy/cartopy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/CartoPy/cartopy/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/Command_Line_Tools/command_line_primer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Command_Line_Tools/command_line_primer/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/Jupyter_Notebooks/jupyter-notebooks-introduction/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Jupyter_Notebooks/jupyter-notebooks-introduction/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/Jupyter_Notebooks/plotting-and-interactivity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Jupyter_Notebooks/plotting-and-interactivity/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/Matplotlib/matplotlib-basics/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Matplotlib/matplotlib-basics/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/MetPy_Advanced/isentropic-analysis/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/MetPy_Advanced/isentropic-analysis/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/MetPy_Advanced/qg-analysis/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/MetPy_Advanced/qg-analysis/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/MetPy_Case_Study/metpy_case_study/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/MetPy_Case_Study/metpy_case_study/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/Metpy_Introduction/introduction-to-metpy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Metpy_Introduction/introduction-to-metpy/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/Model_Output/downloading-model-fields-with-ncss/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Model_Output/downloading-model-fields-with-ncss/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/NumPy/intermediate-numpy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/NumPy/intermediate-numpy/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/NumPy/numpy-basics/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/NumPy/numpy-basics/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/Pandas/jan17_co_asos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Pandas/jan17_co_asos/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/Pandas/pandas-introduction/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Pandas/pandas-introduction/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/Primer/numpy-and-matplotlib-basics/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Primer/numpy-and-matplotlib-basics/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/Primer/primer-exercises/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Primer/primer-exercises/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/Primer/primer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Primer/primer/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/Pythonic_Data_Analysis/advanced-pythonic-data-analysis/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Pythonic_Data_Analysis/advanced-pythonic-data-analysis/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/Pythonic_Data_Analysis/pythonic-data-analysis/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Pythonic_Data_Analysis/pythonic-data-analysis/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/Satellite_Data/goes_interactive_plot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Satellite_Data/goes_interactive_plot/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/Satellite_Data/plottingsatellitedata/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Satellite_Data/plottingsatellitedata/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/Siphon/siphon-overview/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Siphon/siphon-overview/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/Skew_T/skewt_and_hodograph/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Skew_T/skewt_and_hodograph/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/Surface_Data/surface-data-with-siphon-and-metpy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Surface_Data/surface-data-with-siphon-and-metpy/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/Time_Series/basic-time-series-plotting/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Time_Series/basic-time-series-plotting/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/XArray/xarray-introduction/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/XArray/xarray-introduction/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/workshop-intro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/workshop-intro/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/workshop/workshop-intro/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/workshop-intro/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/workshop/workshop_intro.rst" beforeDir="false" afterPath="$PROJECT_DIR$/pages/workshop/workshop_intro.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,16 +103,21 @@
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/python/support.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="90">
-                <caret line="6" column="132" selection-start-line="6" selection-start-column="132" selection-end-line="6" selection-end-column="132" />
+              <first_editor relative-caret-position="165">
+                <caret line="11" selection-start-line="11" selection-end-line="11" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/gallery/gallery-home.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -88,7 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/conf.py" />
         <option value="$PROJECT_DIR$/pages/python/introduction-to-python-for-atmospheric-science-meteorology.rst" />
         <option value="$PROJECT_DIR$/pages/python/index.md" />
         <option value="$PROJECT_DIR$/pages/python/choosing.md" />
@@ -100,27 +173,18 @@
         <option value="$PROJECT_DIR$/pages/python/conda-osx.md" />
         <option value="$PROJECT_DIR$/pages/python/introduction-to-python-for-atmospheric-science-meteorology.md" />
         <option value="$PROJECT_DIR$/pages/python/introduction.md" />
-        <option value="$PROJECT_DIR$/pages/index.rst" />
         <option value="$PROJECT_DIR$/pages/python/support.md" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/test.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" />
+        <option value="$PROJECT_DIR$/pages/workshop/workshop_intro.rst" />
+        <option value="$PROJECT_DIR$/conf.py" />
+        <option value="$PROJECT_DIR$/pages/index.rst" />
+        <option value="$PROJECT_DIR$/pages/gallery/gallery-home.rst" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1609" />
-    <option name="y" value="47" />
-    <option name="width" value="1585" />
-    <option name="height" value="836" />
+    <option name="y" value="23" />
+    <option name="width" value="1427" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -138,13 +202,18 @@
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
@@ -193,19 +262,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564695666851</updated>
-      <workItem from="1564695670776" duration="5340000" />
+      <workItem from="1564695670776" duration="10063000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5340000" />
+    <option name="totallyTimeSpent" value="10063000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1609" y="47" width="1585" height="836" extended-state="0" />
+    <frame x="0" y="23" width="1427" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2242385" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24981949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -214,7 +283,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3293011" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.34751773" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -235,13 +304,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pages/python/introduction-to-python-for-atmospheric-science-meteorology.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/python/conda-windows.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -323,9 +385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/workshop/workshop_intro.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/python/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -346,18 +405,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/python/support.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="132" selection-start-line="6" selection-start-column="132" selection-end-line="6" selection-end-column="132" />
+          <first_editor relative-caret-position="165">
+            <caret line="11" selection-start-line="11" selection-end-line="11" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/workshop/workshop_intro.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="141" column="31" selection-start-line="141" selection-start-column="31" selection-end-line="141" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gallery/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gallery/gallery-home.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
   </component>
 </project>

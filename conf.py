@@ -139,7 +139,7 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/python/intro-to-python", "Introduction to Python"),
-        ("/galleries/", "Example Gallery"),
+        ("/gallery/gallery-home", "Example Gallery"),
         ("/workshop/workshop-intro", "Python Workshop Materials"),
     ),
 }
