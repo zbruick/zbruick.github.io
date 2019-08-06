@@ -18,22 +18,32 @@ submit a Pull Request to the repository on `GitHub`_!
 .. |logo1| image:: /images/sphx_glr_SkewT_Example_thumb.png
    :align: middle
    :target: /gallery/skewt_example
-   :width: 100%
 
 .. |logo2| image:: /images/sphx_glr_miller_composite_thumb.png
    :align: middle
    :target: /gallery/miller_composite
-   :width: 100%
 
-+---------+--------------------+----------+------+
-| |logo1| | |logo2|            | Header 3 | Head |
-|  Skew-T |  Miller Composite  |          |      |
-+---------+--------------------+----------+------+
-| body    | column             | column 3 | colum|
-+---------+--------------------+----------+------+
-| body    | Cells may span columns.              |
-+---------+--------------------+-----------------+
-| body    | Cells              |   Table cells   |
-|         | span               |   contain       |
-+---------+--------------------+-----------------+
+.. |image3| image:: /images/sphx_glr_xarray_500hPa_map_thumb.png
+   :align: middle
+   :target: /gallery/xarray_500hpa_map
+
+.. |image4| image:: /images/sphx_glr_500hPa_Vorticity_Advection_thumb.png
+   :align: middle
+   :target: /gallery/500hpa_vorticity_advection
+
+.. table::
+    :align: center
+    :widths: 15, 15, 15, 15
+
+    +---------+--------------------+----------+-----------+
+    | |logo1| | |logo2|            | |image3| | |image4|  |
+    |  Skew-T |  Miller Composite  | Xarray   |  500 Vort |
+    +---------+--------------------+----------+-----------+
+    | body    | column             | column 3 | colum     |
+    +---------+--------------------+----------+-----------+
+    | body    | Cells may span columns.                   |
+    +---------+--------------------+----------------------+
+    | body    | Cells              |   Table cells        |
+    |         | span               |   contain            |
+    +---------+--------------------+----------------------+
 
