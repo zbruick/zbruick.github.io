@@ -17,11 +17,13 @@ submit a Pull Request to the repository on `GitHub`_!
 
 .. |logo1| image:: /images/sphx_glr_SkewT_Example_thumb.png
    :align: middle
-   :target: /gallery/SkewT_Example
+   :target: /gallery/skewt_example
+   :width: 100%
 
 .. |logo2| image:: /images/sphx_glr_miller_composite_thumb.png
    :align: middle
    :target: /gallery/miller_composite
+   :width: 100%
 
 +---------+--------------------+----------+------+
 | |logo1| | |logo2|            | Header 3 | Head |

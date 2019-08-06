@@ -2,76 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88dd59c4-6828-4f38-a107-b71018636d31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/gallery/gallery-home.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.doit.db.db" beforeDir="false" afterPath="$PROJECT_DIR$/.doit.db.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cache/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/archive.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/archive.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/categories/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/galleries/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/galleries/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/galleries/rss.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output/galleries/rss.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/output/index.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/listings/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/listings/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/listings/test.py.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/listings/test.py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/python/choosing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/python/choosing/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/python/conda-osx/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/python/conda-osx/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/python/conda-windows/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/python/conda-windows/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/python/controlflowintro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/python/controlflowintro/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/python/git/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/python/git/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/python/hodograph-inset-example/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/python/hodograph-inset-example/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/python/intro-to-python/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/python/intro-to-python/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/python/introduction/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/python/introduction/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/python/notebook/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/python/notebook/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/python/support/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/python/support/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/python/test-notebook/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/python/test-notebook/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/python/what/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/python/what/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/sitemapindex.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output/sitemapindex.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/AWIPS/awips_grids_and_cartopy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/AWIPS/awips_grids_and_cartopy/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/AWIPS/grid_levels_and_parameters/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/AWIPS/grid_levels_and_parameters/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/AWIPS/map_resources_and_topography/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/AWIPS/map_resources_and_topography/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/AWIPS/model_sounding_data/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/AWIPS/model_sounding_data/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/AWIPS/nexrad_level_3_plot_with_matplotlib/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/AWIPS/nexrad_level_3_plot_with_matplotlib/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/AWIPS/satellite_imagery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/AWIPS/satellite_imagery/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/AWIPS/upper_air_bufr_soundings/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/AWIPS/upper_air_bufr_soundings/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/AWIPS/watch_and_warning_polygons/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/AWIPS/watch_and_warning_polygons/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/Bonus/downloading-gfs-with-siphon/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Bonus/downloading-gfs-with-siphon/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/Bonus/netcdf-writing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Bonus/netcdf-writing/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/Bonus/siphon_xarray_cartopy_hrrr/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Bonus/siphon_xarray_cartopy_hrrr/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/Bonus/what-to-do-when-things-go-wrong/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Bonus/what-to-do-when-things-go-wrong/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/CartoPy/cartopy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/CartoPy/cartopy/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/Command_Line_Tools/command_line_primer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Command_Line_Tools/command_line_primer/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/Jupyter_Notebooks/jupyter-notebooks-introduction/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Jupyter_Notebooks/jupyter-notebooks-introduction/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/Jupyter_Notebooks/plotting-and-interactivity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Jupyter_Notebooks/plotting-and-interactivity/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/Matplotlib/matplotlib-basics/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Matplotlib/matplotlib-basics/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/MetPy_Advanced/isentropic-analysis/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/MetPy_Advanced/isentropic-analysis/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/MetPy_Advanced/qg-analysis/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/MetPy_Advanced/qg-analysis/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/MetPy_Case_Study/metpy_case_study/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/MetPy_Case_Study/metpy_case_study/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/Metpy_Introduction/introduction-to-metpy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Metpy_Introduction/introduction-to-metpy/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/Model_Output/downloading-model-fields-with-ncss/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Model_Output/downloading-model-fields-with-ncss/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/NumPy/intermediate-numpy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/NumPy/intermediate-numpy/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/NumPy/numpy-basics/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/NumPy/numpy-basics/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/Pandas/jan17_co_asos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Pandas/jan17_co_asos/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/Pandas/pandas-introduction/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Pandas/pandas-introduction/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/Primer/numpy-and-matplotlib-basics/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Primer/numpy-and-matplotlib-basics/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/Primer/primer-exercises/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Primer/primer-exercises/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/Primer/primer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Primer/primer/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/Pythonic_Data_Analysis/advanced-pythonic-data-analysis/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Pythonic_Data_Analysis/advanced-pythonic-data-analysis/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/Pythonic_Data_Analysis/pythonic-data-analysis/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Pythonic_Data_Analysis/pythonic-data-analysis/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/Satellite_Data/goes_interactive_plot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Satellite_Data/goes_interactive_plot/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/Satellite_Data/plottingsatellitedata/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Satellite_Data/plottingsatellitedata/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/Siphon/siphon-overview/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Siphon/siphon-overview/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/Skew_T/skewt_and_hodograph/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Skew_T/skewt_and_hodograph/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/Surface_Data/surface-data-with-siphon-and-metpy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Surface_Data/surface-data-with-siphon-and-metpy/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/Time_Series/basic-time-series-plotting/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/Time_Series/basic-time-series-plotting/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/XArray/xarray-introduction/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/XArray/xarray-introduction/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/workshop-intro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/workshop-intro/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/workshop/workshop-intro/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/output/workshop/workshop-intro/index.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/workshop/workshop_intro.rst" beforeDir="false" afterPath="$PROJECT_DIR$/pages/workshop/workshop_intro.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/pages/gallery/gallery-home.html" beforeDir="false" afterPath="$PROJECT_DIR$/cache/pages/gallery/gallery-home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/gallery/gallery-home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/gallery/gallery-home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/gallery/gallery-home/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/output/gallery/gallery-home/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/gallery/gallery-home.rst" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gallery/gallery-home.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -181,10 +116,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1427" />
-    <option name="height" value="797" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -208,7 +142,7 @@
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="output" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="gallery" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
@@ -262,19 +196,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564695666851</updated>
-      <workItem from="1564695670776" duration="10063000" />
+      <workItem from="1564695670776" duration="10858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10063000" />
+    <option name="totallyTimeSpent" value="10858000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1427" height="797" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24981949" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24749643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -283,7 +217,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.34751773" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.2951807" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
