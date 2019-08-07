@@ -33,7 +33,7 @@
 850 hPa Temperature Advection¶Plot an 850 hPa map with calculating advection using MetPy.
 Beyond just plotting 850-hPa leve">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2019-08-07T08:37:50-06:00">
+<meta property="article:published_time" content="2019-08-07T09:53:52-06:00">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -267,10 +267,6 @@ the distance between lat/lon grid points.</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Use helper function defined above to calculate distance</span>
 <span class="c1"># between lat/lon grid points</span>
 <span class="n">dx</span><span class="p">,</span> <span class="n">dy</span> <span class="o">=</span> <span class="n">mpcalc</span><span class="o">.</span><span class="n">lat_lon_grid_deltas</span><span class="p">(</span><span class="n">lon_var</span><span class="p">,</span> <span class="n">lat_var</span><span class="p">)</span>
-
-<span class="c1"># Because of the way the data are returned we need a negative spacing. This</span>
-<span class="c1"># will be easier in the next version of MetPy.</span>
-<span class="n">dy</span> <span class="o">*=</span> <span class="o">-</span><span class="mi">1</span>
 
 <span class="c1"># Calculate temperature advection using metpy function</span>
 <span class="n">adv</span> <span class="o">=</span> <span class="n">mpcalc</span><span class="o">.</span><span class="n">advection</span><span class="p">(</span><span class="n">temp_850</span> <span class="o">*</span> <span class="n">units</span><span class="o">.</span><span class="n">kelvin</span><span class="p">,</span> <span class="p">[</span><span class="n">u_wind_850</span><span class="p">,</span> <span class="n">v_wind_850</span><span class="p">],</span>

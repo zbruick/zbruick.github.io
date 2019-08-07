@@ -3,9 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="88dd59c4-6828-4f38-a107-b71018636d31" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.doit.db.db" beforeDir="false" afterPath="$PROJECT_DIR$/.doit.db.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/pages/gallery/gallery-home.html" beforeDir="false" afterPath="$PROJECT_DIR$/cache/pages/gallery/gallery-home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/gallery/gallery-home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/gallery/gallery-home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/gallery/250hpa_hemispheric_plot/index.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/output/gallery/250hpa_hemispheric_plot/index.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/gallery/500hpa_absolute_vorticity_winds/index.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/output/gallery/500hpa_absolute_vorticity_winds/index.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/gallery/850hpa_temperature_advection/index.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/output/gallery/850hpa_temperature_advection/index.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/gallery/gallery-home/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/output/gallery/gallery-home/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/gallery/goes_aircraft/index.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/output/gallery/goes_aircraft/index.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/gallery/isentropic_interpolation/index.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/output/gallery/isentropic_interpolation/index.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/gallery/satellite_example/index.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/output/gallery/satellite_example/index.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/gallery/250hPa_Hemispheric_Plot.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gallery/250hPa_Hemispheric_Plot.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/gallery/500hPa_Absolute_Vorticity_winds.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gallery/500hPa_Absolute_Vorticity_winds.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/gallery/850hPa_Temperature_Advection.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gallery/850hPa_Temperature_Advection.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/gallery/GOES_aircraft.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gallery/GOES_aircraft.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/gallery/Isentropic_Interpolation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gallery/Isentropic_Interpolation.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/gallery/Satellite_Example.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gallery/Satellite_Example.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/gallery/gallery-home.rst" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gallery/gallery-home.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -138,18 +148,7 @@
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="output" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
-              <item name="gallery" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
@@ -209,16 +208,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564695666851</updated>
-      <workItem from="1564695670776" duration="17315000" />
+      <workItem from="1564695670776" duration="18915000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17315000" />
+    <option name="totallyTimeSpent" value="18915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1642" y="43" width="1718" height="970" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20644392" />

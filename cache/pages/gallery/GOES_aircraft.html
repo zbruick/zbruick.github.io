@@ -90,9 +90,8 @@
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_goes_image</span><span class="p">(</span><span class="n">date</span><span class="o">=</span><span class="n">datetime</span><span class="o">.</span><span class="n">utcnow</span><span class="p">(),</span> <span class="n">channel</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span> <span class="n">region</span><span class="o">=</span><span class="s1">&#39;CONUS&#39;</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Return dataset of GOES-16 data.&quot;&quot;&quot;</span>
-    <span class="n">cat</span> <span class="o">=</span> <span class="n">TDSCatalog</span><span class="p">(</span><span class="s1">&#39;http://thredds-test.unidata.ucar.edu/thredds/&#39;</span>
-                     <span class="s1">&#39;catalog/satellite/goes16/GOES16/&#39;</span>
-                     <span class="s1">&#39;</span><span class="si">{}</span><span class="s1">/Channel</span><span class="si">{:02d}</span><span class="s1">/{:%Y%m</span><span class="si">%d</span><span class="s1">}/&#39;</span>
+    <span class="n">cat</span> <span class="o">=</span> <span class="n">TDSCatalog</span><span class="p">(</span><span class="s1">&#39;https://thredds.ucar.edu/thredds/catalog/satellite/goes/east/products/&#39;</span>
+                     <span class="s1">&#39;CloudAndMoistureImagery/</span><span class="si">{}</span><span class="s1">/Channel</span><span class="si">{:02d}</span><span class="s1">/{:%Y%m</span><span class="si">%d</span><span class="s1">}/&#39;</span>
                      <span class="s1">&#39;catalog.xml&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">region</span><span class="p">,</span> <span class="n">channel</span><span class="p">,</span> <span class="n">date</span><span class="p">))</span>
 
     <span class="n">ds</span> <span class="o">=</span> <span class="n">cat</span><span class="o">.</span><span class="n">datasets</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>  <span class="c1"># Get most recent dataset</span>
