@@ -6,9 +6,7 @@
       <change beforePath="$PROJECT_DIR$/cache/pages/gallery/gallery-home.html" beforeDir="false" afterPath="$PROJECT_DIR$/cache/pages/gallery/gallery-home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/gallery/gallery-home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/gallery/gallery-home/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/gallery/gallery-home/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/output/gallery/gallery-home/index.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/gallery/500hPa_Vorticity_Advection.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/gallery/gallery-home.rst" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gallery/gallery-home.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/gallery/xarray_500hPa_map.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -211,12 +209,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564695666851</updated>
-      <workItem from="1564695670776" duration="14997000" />
+      <workItem from="1564695670776" duration="17315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14997000" />
+    <option name="totallyTimeSpent" value="17315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1642" y="43" width="1718" height="970" extended-state="0" />
