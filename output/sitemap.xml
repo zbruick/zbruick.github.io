@@ -26,20 +26,116 @@
   <lastmod>2019-08-01T20:51:00Z</lastmod>
  </url>
  <url>
+  <loc>https://zbruick.github.io/gallery/250hpa_hemispheric_plot/</loc>
+  <lastmod>2019-08-07T14:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/gallery/500hpa_absolute_vorticity_winds/</loc>
+  <lastmod>2019-08-07T14:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/gallery/500hpa_hght_winds/</loc>
+  <lastmod>2019-08-07T14:51:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://zbruick.github.io/gallery/500hpa_vorticity_advection/</loc>
   <lastmod>2019-08-06T20:00:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/gallery/700hpa_relh_winds/</loc>
+  <lastmod>2019-08-07T14:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/gallery/850hpa_frontogenesis/</loc>
+  <lastmod>2019-08-07T14:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/gallery/850hpa_qvectors/</loc>
+  <lastmod>2019-08-07T14:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/gallery/850hpa_temperature_advection/</loc>
+  <lastmod>2019-08-07T14:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/gallery/850hpa_tmpc_winds/</loc>
+  <lastmod>2019-08-07T14:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/gallery/ageostrophic_wind_example/</loc>
+  <lastmod>2019-08-07T14:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/gallery/analytic_300hpa_trough/</loc>
+  <lastmod>2019-08-07T14:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/gallery/differential_temperature_advection/</loc>
+  <lastmod>2019-08-07T14:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://zbruick.github.io/gallery/gallery-home/</loc>
   <lastmod>2019-08-05T19:27:00Z</lastmod>
  </url>
  <url>
+  <loc>https://zbruick.github.io/gallery/gfs_widget/</loc>
+  <lastmod>2019-08-07T14:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/gallery/goes_aircraft/</loc>
+  <lastmod>2019-08-07T14:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/gallery/hilo_symbol_plot/</loc>
+  <lastmod>2019-08-07T14:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/gallery/hovmoller_diagram/</loc>
+  <lastmod>2019-08-07T14:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/gallery/isentropic_interpolation/</loc>
+  <lastmod>2019-08-07T14:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/gallery/mapping_goes16_truecolor/</loc>
+  <lastmod>2019-08-07T14:51:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://zbruick.github.io/gallery/miller_composite/</loc>
   <lastmod>2019-08-05T21:59:00Z</lastmod>
  </url>
  <url>
+  <loc>https://zbruick.github.io/gallery/mslp_temp_winds/</loc>
+  <lastmod>2019-08-07T14:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/gallery/precipitation_map/</loc>
+  <lastmod>2019-08-07T14:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/gallery/pv_baroclinic_isobaric/</loc>
+  <lastmod>2019-08-07T14:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/gallery/satellite_example/</loc>
+  <lastmod>2019-08-07T14:51:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://zbruick.github.io/gallery/skewt_example/</loc>
   <lastmod>2019-08-05T21:03:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/gallery/smoothing_contours/</loc>
+  <lastmod>2019-08-07T14:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/gallery/sounding_plotter/</loc>
+  <lastmod>2019-08-07T14:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://zbruick.github.io/gallery/wind_shear_vectors_example/</loc>
+  <lastmod>2019-08-07T14:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://zbruick.github.io/gallery/xarray_500hpa_map/</loc>

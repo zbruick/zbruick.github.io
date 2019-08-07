@@ -15,35 +15,24 @@ submit a Pull Request to the repository on `GitHub`_!
 
 .. _`GitHub`: https://github.com/Unidata/python-training
 
-.. |logo1| image:: /images/sphx_glr_SkewT_Example_thumb.png
-   :align: middle
-   :target: /gallery/skewt_example
-
-.. |logo2| image:: /images/sphx_glr_miller_composite_thumb.png
-   :align: middle
-   :target: /gallery/miller_composite
-
-.. |image3| image:: /images/sphx_glr_xarray_500hPa_map_thumb.png
-   :align: middle
-   :target: /gallery/xarray_500hpa_map
-
-.. |image4| image:: /images/sphx_glr_500hPa_Vorticity_Advection_thumb.png
-   :align: middle
-   :target: /gallery/500hpa_vorticity_advection
-
 .. table::
     :align: center
     :widths: 15, 15, 15, 15
 
-    +---------+--------------------+----------+-----------+
-    | |logo1| | |logo2|            | |image3| | |image4|  |
-    |  Skew-T |  Miller Composite  | Xarray   |  500 Vort |
-    +---------+--------------------+----------+-----------+
-    | body    | column             | column 3 | colum     |
-    +---------+--------------------+----------+-----------+
-    | body    | Cells may span columns.                   |
-    +---------+--------------------+----------------------+
-    | body    | Cells              |   Table cells        |
-    |         | span               |   contain            |
-    +---------+--------------------+----------------------+
+    +----------------------------------------------------------------+---------------------------------------------------------------+----------------------------------------------------------+------------------------------------------------------------------------+
+    | .. figure:: /images/sphx_glr_SkewT_Example_thumb.png           | .. figure:: /images/sphx_glr_miller_composite_thumb.png       | .. figure:: /images/sphx_glr_xarray_500hPa_map_thumb.png | .. figure:: /images/sphx_glr_500hPa_Vorticity_Advection_thumb.png      |
+    |    :target: /gallery/skewt_example                             |    :target: /gallery/miller_composite                         |    :target: /gallery/xarray_500hpa_map                   |    :target: /gallery/500hpa_vorticity_advection                        |
+    |                                                                |                                                               |                                                          |                                                                        |
+    |    Skew-T                                                      |    Miller Composite                                           |    Xarray 500-hPa Map                                    |    500-hPa Vorticity Advection                                         |
+    +----------------------------------------------------------------+---------------------------------------------------------------+----------------------------------------------------------+------------------------------------------------------------------------+
+    | .. figure:: /images/sphx_glr_250hPa_Hemispheric_Plot_thumb.png | .. figure:: /images/sphx_glr_Analytic_300hPa_Trough_thumb.png | .. figure:: /images/sphx_glr_500hPa_HGHT_Winds_thumb.png | .. figure:: /images/sphx_glr_500hPa_Absolute_Vorticity_winds_thumb.png |
+    |    :target: /gallery/250hpa_hemispheric_plot                   |    :target: /gallery/analytic_300hpa_trough                   |    :target: /gallery/500hpa_hght_winds                   |    :target: /gallery/500hpa_absolute_vorticity                         |
+    |                                                                |                                                               |                                                          |                                                                        |
+    |    250-hPa Hemispheric Map                                     |    Analytic 300-hPa Trough Map                                |    500-hPa Heights and Winds                             |    500-hPa Absolute Vorticity and Winds                                |
+    +----------------------------------------------------------------+---------------------------------------------------------------+----------------------------------------------------------+------------------------------------------------------------------------+
+    | body                                                           | Cells may span columns.                                       |                                                          |                                                                        |
+    +----------------------------------------------------------------+---------------------------------------------------------------+----------------------------------------------------------+------------------------------------------------------------------------+
+    | body                                                           | Cells                                                         |   Table cells                                            |                                                                        |
+    |                                                                | span                                                          |   contain                                                |                                                                        |
+    +----------------------------------------------------------------+---------------------------------------------------------------+----------------------------------------------------------+------------------------------------------------------------------------+
 

@@ -6,9 +6,9 @@
       <change beforePath="$PROJECT_DIR$/cache/pages/gallery/gallery-home.html" beforeDir="false" afterPath="$PROJECT_DIR$/cache/pages/gallery/gallery-home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/gallery/gallery-home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/gallery/gallery-home/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/gallery/gallery-home/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/output/gallery/gallery-home/index.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/sitemapindex.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output/sitemapindex.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/gallery/500hPa_Vorticity_Advection.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/gallery/gallery-home.rst" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gallery/gallery-home.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/gallery/xarray_500hPa_map.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,9 +118,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1642" />
+    <option name="y" value="43" />
+    <option name="width" value="1718" />
+    <option name="height" value="970" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -209,19 +211,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564695666851</updated>
-      <workItem from="1564695670776" duration="11751000" />
+      <workItem from="1564695670776" duration="14997000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11751000" />
+    <option name="totallyTimeSpent" value="14997000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="1642" y="43" width="1718" height="970" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24749643" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20644392" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -230,7 +232,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.2951807" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.2790433" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
