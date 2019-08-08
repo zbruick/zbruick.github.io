@@ -8,12 +8,18 @@
 
 Welcome to the Unidata Python Example Gallery! Check out detailed examples for atmospheric science
 and meteorology, from data analysis to publication-quality figures. Feel free to use code from these
-examples in your own work.
+examples in your own work. To download an example, click the "Source" link in the top right corner of
+the Notebook page. To install Python, get your Conda environment created, and run the example, visit
+our :doc:`Guide for Running Examples <installation>`. Curious about the Python libraries used in these
+examples? Visit our :doc:`Useful Python Tools <useful-tools>` page to learn more!
 
 Have an example you would like to share with the community? Check out the Contributor's Guide and then
 submit a Pull Request to the repository on `GitHub`_!
 
+For questions regarding the gallery, please visit our `Support`_ page.
+
 .. _`GitHub`: https://github.com/Unidata/python-training
+.. _`Support`: /python/support
 
 .. table::
     :align: center
