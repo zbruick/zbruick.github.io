@@ -19,7 +19,7 @@ scientific Python ecosystem. All things related to getting started with Python
 are hosted here, including download instructions, basic syntax, and general 
 usage examples. For more detailed examples of how to analyze data and produce
 publication-quality figures specifically for atmospheric science and meteorology,
-please see our [Example Gallery](/galleries/) or [Python Workshop](/workshop/workshop-intro)
+please see our [Example Gallery](/gallery/gallery-home) or [Python Workshop](/workshop/workshop-intro)
 materials.
 
 Unidata staff are actively developing and curating the material here, but what
